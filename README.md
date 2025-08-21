@@ -1,0 +1,1 @@
+Hey there! Have you ever lost your keys, wallet, or student card on campus? Well, worry no more—FoundU is here to save the day. FoundU is a simple, smart, and slightly magical web app that helps students and staff reunite with their lost items quickly. Think of it as your friendly campus detective… but digital.
