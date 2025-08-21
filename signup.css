@@ -1,0 +1,131 @@
+/* General earthy theme */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: #f4f3f1; /* soft beige background */
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container */
+.signup-container {
+  background: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0px 6px 15px rgba(0,0,0,0.15);
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+}
+
+/* Logo + slogan */
+.logo {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #355e3b; /* deep earthy green */
+  margin-bottom: 5px;
+}
+.slogan {
+  color: #5d5d5d;
+  font-size: 0.95rem;
+  margin-bottom: 25px;
+}
+
+/* Form */
+.form-group {
+  text-align: left;
+  margin-bottom: 15px;
+}
+.form-group label {
+  display: block;
+  font-size: 0.9rem;
+  color: #355e3b;
+  margin-bottom: 5px;
+}
+.form-group input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #b8b8b8;
+  border-radius: 8px;
+  font-size: 1rem;
+  outline: none;
+  transition: border 0.3s;
+}
+.form-group input:focus {
+  border-color: #355e3b;
+}
+
+/* Buttons */
+.btn-primary {
+  width: 100%;
+  padding: 12px;
+  background: #355e3b; 
+  color: #fff;
+  font-size: 1rem;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s;
+}
+.btn-primary:hover {
+  background: #27472a;
+}
+
+.divider {
+  margin: 20px 0;
+  font-size: 0.85rem;
+  color: #888;
+  position: relative;
+}
+.divider::before, .divider::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  width: 40%;
+  height: 1px;
+  background: #ccc;
+}
+.divider::before {
+  left: 0;
+}
+.divider::after {
+  right: 0;
+}
+
+/* Google button */
+.btn-google {
+  width: 100%;
+  padding: 12px;
+  background: #fff;
+  border: 2px solid #db4437;
+  color: #db4437;
+  font-size: 1rem;
+  font-weight: bold;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-bottom: 15px;
+  transition: background 0.3s, color 0.3s;
+}
+.btn-google:hover {
+  background: #db4437;
+  color: #fff;
+}
+
+/* Forgot link */
+.forgot-link {
+  display: block;
+  font-size: 0.85rem;
+  color: #355e3b;
+  text-decoration: none;
+  margin-top: 10px;
+  transition: color 0.3s;
+}
+.forgot-link:hover {
+  color: #27472a;
+}
